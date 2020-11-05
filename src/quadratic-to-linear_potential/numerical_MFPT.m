@@ -3,18 +3,17 @@ function [tau] = numerical_MFPT(V,xGrid,a,b)
 %specified on the grid xGrid from a to b numerically
 %
 % INPUTS: 
-%   V: vector containing potential
-%   x: vector containing x-grid
-%   a: origin
-%   b: boundary
+%       V: vector containing potential
+%   xGrid: vector containing x-grid
+%       a: origin
+%       b: boundary
 %
 % OUTPUTS:  
 %   tau: mean first passage time
 %
 % author:   JEhrich
-% version:  1.1 (2020-11-04)
-% changes:  code comments added, removed numerical calculation of reset
-% positon
+% version:  1.2 (2020-11-04)
+% changes:  changed naming to xGrid
 
 % calculate index of threshold
 [~,i_a] = min(abs(a-xGrid));
