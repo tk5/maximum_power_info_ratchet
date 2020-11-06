@@ -1,5 +1,5 @@
 An example igor file is provided that can be used to go through the analysis procedure. The corresponding data file is 
-also provided "ExampleData.txt". The columns (called 'waves' in Igor) in the file are:
+also provided in "ExampleData.txt" in the zipped folder "ExampleData.zip". The columns (called 'waves' in Igor) in the file are:
 
 xpos_PSD : the position of the bead at fixed trap position to measure the corner frequency and Diffusion.
 xpos : The position of the bead.
