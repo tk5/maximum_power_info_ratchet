@@ -3,6 +3,10 @@ Scripts and data for manuscript "Maximizing power and velocity of an information
 
 ## Directories reference
 
+src/experimental_analysis/: Directory containing IGOR files that perform analysis on the experimental data and generate the associated figures in main text and SI appendix. 
+
+src/experimental_analysis/example_analysis/: Directory containing a self-contained example of how analysis of experimental data is done. README file contained in the directory explains further. 
+
 src/limits.py: Script computing expected limits of performance following discussion detailed in SI Appendix Section L. 
 
 src/power_vs_frequency_numeric/: Directory containing script and data corresponding to the calculation detailed in SI Appendix Section E and generates the theoretical curve found in Fig. 3A of the main text.
@@ -13,7 +17,6 @@ src/quadratic-to-linear_potential/: Directory containing script and data corresp
 
 data/: Directory containing data to generate all figures in main text and SI appendix.
 
-Final_Igor_AnalysedFiles/: Directory containing IGOR files that perform analysis on the experimental data and generate the associated figures in main text and SI appendix. 
 
 ## Igor analysis
 
