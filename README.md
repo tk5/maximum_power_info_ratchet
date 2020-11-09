@@ -67,13 +67,8 @@ The analysis file is pre-loaded in the "Procedure" file in "Analysis_eg.pxp".
 13) This prints in the command window the "delta_g" value, the mean extrated power "P" and the input trap work "P_trap".
 14) In the "Data Browser", the analysed values can be found in the waves:
 	F_power : 	the final mean extracted power "P" in scaled units
-	
 	F_power_se: 	standard error of the mean of extracted power
-	
 	F_velocity:	mean velocity in units of (um/s)
-	
 	F_velocity_se:	standard error of the mean velocity
-	
 	P_trap:		mean trap work "P_trap" in scaled units
-	
 	Ptrap_se	standard error of the mean trap work
