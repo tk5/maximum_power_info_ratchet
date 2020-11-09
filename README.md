@@ -7,7 +7,7 @@ data/: Directory containing data to generate all figures in main text and SI app
 
 doc/: Directory containing figures found in the main text and SI appendix. 
 
-src/experimental_analysis/: Directory containing IGOR files that perform analysis on the experimental data and generate the associated figures in main text and SI appendix. 
+src/experimental_analysis/: Directory containing IGOR files contain the analyzed experimental data and generate the associated figures in main text and SI appendix. 
 
 src/experimental_analysis/example_analysis/: Directory containing a self-contained example of how analysis of experimental data is done. README file contained in the directory explains further. 
 
