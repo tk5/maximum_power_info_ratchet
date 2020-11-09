@@ -1,4 +1,4 @@
-An example igor file is provided that can be used to go through the analysis procedure. The corresponding data file is 
+An example igor file is provided that can be used to go through the analysis procedure. The corresponding raw data file is 
 also provided in "ExampleData.txt" in the zipped folder "ExampleData.zip". The columns (called 'waves' in Igor) in the file are:
 
 xpos_PSD : the position of the bead at fixed trap position to measure the corner frequency and Diffusion.
@@ -9,8 +9,8 @@ State: The state variable is a column of 0 and 1, where 0 means the ratchet prot
 
 Note that the first column (xpos_PSD) is recorded first to calibrate the trap and then the experiment for ratchet protocol is 
 done that records the columns: xpos, TrapPos and State. The data is provided together for simplicity of analysis in the Igor Pro.
-The position data in the first three column are in arbitrary units, multiply them by 84.8 to convert them into nanometers. The 
-sampling time was 20 us as described in the main text.
+The position data in the first three column are in arbitrary units, multiply them by 84.8 to convert them into nanometers (only when 
+using the raw data, it is in-built in the Igor analysis file). The sampling time was 20 microsecond.
 
 
 ==========Analysis Procedure====================
