@@ -10,14 +10,14 @@ State: The state variable is a column of 0 and 1, where 0 means the ratchet prot
 Note that the first column (xpos_PSD) is recorded first to calibrate the trap and then the experiment for ratchet protocol is 
 done that records the columns: xpos, TrapPos and State. The data is provided together for simplicity of analysis in the Igor Pro.
 The position data in the first three column are in arbitrary units, multiply them by 84.8 to convert them into nanometers (only when 
-using the raw data, it is in-built in the Igor analysis file). The sampling time was 20 microsecond.
+using the raw data, it is in-built in the Igor analysis file). The sampling time was 20 microseconds.
 
 
-==========Analysis Procedure====================
+# Analysis Procedure
 
 The analysis file is pre-loaded in the "Procedure" file in "Analysis_eg.pxp".
 
---------Trap Stiffness Analysis-----------------
+## Trap Stiffness Analysis
 
 1) Open the file "Analysis_eg.pxp" in Igor Pro. The four data columns and analysis file are pre-loaded.
 2) In the command window run the code in Igor: PSD("xpos_PSD")
@@ -36,8 +36,8 @@ The analysis file is pre-loaded in the "Procedure" file in "Analysis_eg.pxp".
 	w_0 = 46.77 
 	w_1 = 22.66
 	w_2 = 4.32 e-9
-
---------Ratchet output analysis-----------------
+	
+## Ratchet Output Analysis
 
 12) In the command window run the code: DoAll(xpos, trapPos, state, 46.77, 23.66)
     *The numbers 46.77 and 23.66 must be replaced by the corner frequency and diffusion values obtained in the first part of the 
