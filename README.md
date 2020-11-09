@@ -21,8 +21,7 @@ The plots in Fig 2-4, S4, S5, S6 and S8 were made on a paid software Igor Pro 8,
 
 https://www.wavemetrics.com/order/order_igordownloads.htm
 
-An example igor file is provided that can be used to go through the analysis procedure. The corresponding raw data file is 
-also provided in "ExampleData.txt" in the zipped folder "ExampleData.zip". The columns (called 'waves' in Igor) in the file are:
+An example igor file is provided in Final_Igor_AnalysedFiles directory in the folder "ExampleExperimentalData" that can be used to go through the analysis procedure on an experimental data. The corresponding raw data file "ExampleData.zip" is also provided in the same folder. The columns (called 'waves' in Igor) in the file are:
 
 xpos_PSD : the position of the bead at fixed trap position to measure the corner frequency and Diffusion.
 xpos : The position of the bead.
