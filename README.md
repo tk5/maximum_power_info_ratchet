@@ -66,6 +66,7 @@ The analysis file is pre-loaded in the "Procedure" file in "Analysis_eg.pxp".
     *The numbers 46.77 and 23.66 must be replaced by the corner frequency and diffusion values obtained in the first part of the analysis.
 13) This prints in the command window the "delta_g" value, the mean extrated power "P" and the input trap work "P_trap".
 14) In the "Data Browser", the analysed values can be found in the waves:
+
 	F_power: 	the final mean extracted power "P" in scaled units
 	
 	F_power_se: 	standard error of the mean of extracted power
