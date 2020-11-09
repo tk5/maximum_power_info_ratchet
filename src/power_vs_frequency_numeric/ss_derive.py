@@ -111,7 +111,7 @@ def compute_means(target_dir):
 
 if __name__ == "__main__":
 
-    target_repo = "./data_dir/"
+    target_repo = "../../data_dir/"
     today_dir = environ["TODAY"]
 
     target_dir = target_repo + "/" + today_dir + "/"
