@@ -53,7 +53,7 @@ plot(XTVec,PVec);
 
 %% write out output power
 %writematrix([XTs, P, v, tMFP],['num_power_threshold_dg_' num2str(dg) '.txt'],'Delimiter','tab')
-fileID = fopen(['num_power_threshold_dg_' num2str(dg) '.txt'],'w');
+fileID = fopen(['../../data/num_power_threshold_dg_' num2str(dg) '.txt'],'w');
 % write comment line
 fprintf(fileID,'%15s %15s %15s %15s\n','XT','P','v','tau');
 % write out data
@@ -65,4 +65,4 @@ for ii = 1:length(XTVec)
 end
 fclose(fileID);
 
-type(['num_power_threshold_dg_' num2str(dg) '.txt'])
+type(['../../data/num_power_threshold_dg_' num2str(dg) '.txt'])

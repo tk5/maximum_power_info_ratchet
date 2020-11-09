@@ -186,8 +186,11 @@ axis([min(xTVec),max(xTVec),0,0.3]);
 % add figure label
 text(0.025,0.322,'B','FontSize',fS+9,'Interpreter','latex','horizontalAlignment','center');
 
+% save figure
+saveas(gcf, '../../doc/quadratic_to_linear','epsc')
+
 %% write out data
-fileID = fopen(['quadratic-to-linear_dg_' num2str(dg) '.txt'],'w');
+fileID = fopen(['../../data/quadratic-to-linear_dg_' num2str(dg) '.txt'],'w');
 % write comment line
 fprintf(fileID,'%15s ','XT');
 for ii = 1:length(f1Vec)
