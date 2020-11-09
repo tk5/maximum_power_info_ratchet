@@ -2,8 +2,11 @@ An example igor file is provided that can be used to go through the analysis pro
 also provided in "ExampleData.txt" in the zipped folder "ExampleData.zip". The columns (called 'waves' in Igor) in the file are:
 
 xpos_PSD : the position of the bead at fixed trap position to measure the corner frequency and Diffusion.
+
 xpos : The position of the bead.
+
 TrapPos: The position of the trap.
+
 State: The state variable is a column of 0 and 1, where 0 means the ratchet protocol is on and 1 means the bead is being pulled
 	back to the starting position of the trajectory.
 
@@ -44,9 +47,15 @@ The analysis file is pre-loaded in the "Procedure" file in "Analysis_eg.pxp".
     analysis.
 13) This prints in the command window the "delta_g" value, the mean extrated power "P" and the input trap work "P_trap".
 14) In the "Data Browser", the analysed values can be found in the waves:
+
 	F_power : 	the final mean extracted power "P" in scaled units
+	
 	F_power_se: 	standard error of the mean of extracted power
+	
 	F_velocity:	mean velocity in units of (um/s)
+	
 	F_velocity_se:	standard error of the mean velocity
+	
 	P_trap:		mean trap work "P_trap" in scaled units
+	
 	Ptrap_se	standard error of the mean trap work
