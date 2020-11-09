@@ -1,2 +1,16 @@
 # maximum_power_info_ratchet
 Scripts and data for manuscript "Maximizing power and velocity of an information engine" by Tushar K. Saha, Joseph N. E. Lucero, Jannik Ehrich, David A. Sivak, and John Bechhoefer
+
+## Directories reference
+
+src/limits.py: Script computing expected limits of performance following discussion detailed in SI Appendix Section L. 
+
+src/power_vs_frequency_numeric/: Directory containing script and data corresponding to the calculation detailed in SI Appendix Section E and generates the theoretical curve found in Fig. 3A of the main text.
+
+src/power_vs_threshold_numeric/: Directory containing script and data corresponding to calculation that generates the theoretical curve found in Fig. 3B of the main text. 
+
+src/quadratic-to-linear_potential/: Directory containing script and data corresponding to carrying out the calculations detailed in SI Appendix Section K.1 and generates Figs. S7A and S7B.
+
+data/: Directory containing data to generate all figures in main text and SI appendix.
+
+Final_Igor_AnalysedFiles/: Directory containing IGOR files that perform analysis on the experimental data and generate the associated figures in main text and SI appendix. 
