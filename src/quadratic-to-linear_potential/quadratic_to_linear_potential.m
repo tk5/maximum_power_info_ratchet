@@ -8,8 +8,9 @@
 %       2) creates txt file with plot data
 %
 % author:   JEhrich
-% version:  1.2 (2020-11-04)
-% changes:  added plot data output
+% version:  1.3 (2020-11-09)
+% changes:  changed output file location to /data
+
 clear 'all'
 close 'all'
 clc

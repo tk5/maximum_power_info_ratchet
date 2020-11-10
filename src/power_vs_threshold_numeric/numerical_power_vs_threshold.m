@@ -5,9 +5,8 @@
 %       creates .txt with tab delimiters of xT, power, velocity and MFPT
 %
 % author:   JEhrich
-% version:  1.2 (2020-11-04)
-% changes:  changed output file format to tab-separated output and added 
-%code comments
+% version:  1.3 (2020-11-09)
+% changes:  changed output file location to /data
 
 clear 'all'
 close 'all'
