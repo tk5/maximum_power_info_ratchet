@@ -11,7 +11,7 @@ src/example_exp_analysis/: Directory containing a self-contained example of how 
 
 src/limits.py: Script computing expected limits of performance following discussion detailed in SI Appendix Section L. 
 
-src/power_vs_frequency_numeric/: Directory containing script corresponding to the calculation detailed in SI Appendix Section E and generates the theoretical curve found in Fig. 3A of the main text. Script outputs to data/ directory.
+src/power_vs_frequency_numeric/: Directory containing script corresponding to the calculation detailed in SI Appendix Section E and generates the theoretical curve found in Fig. 3A of the main text. Script outputs to data/ directory. Also contains Mathematica notebook containing the associated derivation.
 
 src/power_vs_threshold_numeric/: Directory containing script corresponding to calculation that generates the theoretical curve found in Fig. 3B of the main text. Script outputs to data/ directory.
 
