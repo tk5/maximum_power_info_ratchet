@@ -160,7 +160,7 @@ for jj = 1:length(f1Vec)
         V = Vt + dg*xGrid;
         
         % compute MFPT
-        tauVec(ii,jj) = numerical_MFPT(V,xGrid,xT,-xRVec(ii,jj)); 
+        tauVec(ii,jj) = numerical_MFPT(V,xGrid,-xRVec(ii,jj),xT); 
     end
 end
 toc

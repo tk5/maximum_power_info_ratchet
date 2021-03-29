@@ -12,8 +12,8 @@ function [tau] = numerical_MFPT(V,xGrid,a,b)
 %   tau: mean first passage time
 %
 % author:   JEhrich
-% version:  1.2 (2020-11-04)
-% changes:  changed naming to xGrid
+% version:  1.3 (2021-03-29)
+% changes:  fixed indexing in potential by swapping i_a and i_b
 
 % calculate index of threshold
 [~,i_a] = min(abs(a-xGrid));
@@ -25,9 +25,8 @@ dx = diff(xGrid(1:2));
 % inner integral
 ker = cumsum(exp(-V)*dx);
 % outer integral
-tau = sum(dx*exp(V(i_b:i_a)).*ker(i_b:i_a));
+tau = sum(dx*exp(V(i_a:i_b)).*ker(i_a:i_b));
 
 
 
 end
-
