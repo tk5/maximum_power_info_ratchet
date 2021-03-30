@@ -9,10 +9,8 @@ doc/: Directory containing figures found in the main text and SI appendix.
 
 src/example_exp_analysis/: Directory containing a self-contained example of how analysis of experimental data is done. README file contained in the directory explains further. 
 
-src/limits.py: Script computing expected limits of performance following discussion detailed in SI Appendix Section L. 
+src/analysis.ipynb: Jupyter notebook containing theoretical calculations that regenerate the curves found in the main text. Also has details about the calculations that can be found in the SI Appendix. 
 
-src/power_vs_frequency_numeric/: Directory containing script corresponding to the calculation detailed in SI Appendix Section E and generates the theoretical curve found in Fig. 3A of the main text. Script outputs to data/ directory. Also contains Mathematica notebook containing the associated derivation.
-
-src/power_vs_threshold_numeric/: Directory containing script corresponding to calculation that generates the theoretical curve found in Fig. 3B of the main text. Script outputs to data/ directory.
+src/propagators.nb: Mathematica notebook containing the details of how the propagators, discussed in the SI Appendix section E and N, are derived. Expressions derived are used in the Jupyter notebook above.
 
 src/quadratic-to-linear_potential/: Directory containing script carrying out the calculations detailed in SI Appendix Section K.1 and generates Figs. S7A and S7B. Script outputs data file to data/ directory and figure to doc/ directory.
