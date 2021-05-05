@@ -14,3 +14,5 @@ src/analysis.ipynb: Jupyter notebook containing theoretical calculations that re
 src/propagators.nb: Mathematica notebook containing the details of how the propagators, discussed in the SI Appendix section E and N, are derived. Expressions derived are used in the Jupyter notebook above.
 
 src/quadratic-to-linear_potential/: Directory containing script carrying out the calculations detailed in SI Appendix Section K.1 and generates Figs. S7A and S7B. Script outputs data file to data/ directory and figure to doc/ directory.
+
+src/noisy_analysis/: Directory containing scripts (and corresponding derivation in the Mathematica notebook) to compute the efficiency of the engine given empirical measurement noise, as detailed in SI Appendix Section N. Script outputs file to data/ directory.
